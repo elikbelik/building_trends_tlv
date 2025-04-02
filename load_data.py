@@ -23,11 +23,11 @@ TensorTuple3 = Tuple[torch.Tensor, torch.Tensor, torch.Tensor]
 tqdm.pandas()
 
 
-DATA_CSV = '/Users/elad/workspace/playground/stuff/horn_kedar/pivoted_data.csv'
-MINOR_MAJOR_CSV = '/Users/elad/workspace/playground/stuff/horn_kedar/cleaned74-97_validated_updated_fixed.csv'
-MINOR_MAJOR_PART2_CSV = '/Users/elad/workspace/playground/stuff/horn_kedar/machine learning 4-1 validation_EH.csv'
-MINOR_MAJOR_PART3_CSV = '/Users/elad/workspace/playground/stuff/horn_kedar/ml_new_entress.csv'
-MINOR_MAJOR_PART4_70S_CSV = '/Users/elad/workspace/playground/stuff/horn_kedar/69-79 validation.csv'
+DATA_CSV = 'data/pivoted_data.csv'
+MINOR_MAJOR_CSV = 'data/cleaned74-97_validated_updated_fixed.csv'
+MINOR_MAJOR_PART2_CSV = 'data/machine learning 4-1 validation_EH.csv'
+MINOR_MAJOR_PART3_CSV = 'data/ml_new_entress.csv'
+MINOR_MAJOR_PART4_70S_CSV = 'data/69-79 validation.csv'
 
 
 def stable_hash(value):
